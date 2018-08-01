@@ -1,0 +1,19 @@
+
+.navFixed {
+  width: 100%;
+  position: fixed;
+  box-shadow:         2px 2px 15px black;
+}
+
+h1 {
+  padding-top: 100px;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+
+}
+
+ {
+  background-color: black;
+
+}
