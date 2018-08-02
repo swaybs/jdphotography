@@ -1,19 +1,27 @@
-
 .navFixed {
   width: 100%;
   position: fixed;
-  box-shadow:         2px 2px 15px black;
+  box-shadow: 2px 2px 15px black;
 }
 
 h1 {
-  padding-top: 100px;
+  position: static;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
   margin: 0 auto;
   text-align: center;
-  color: black;
-
+  color: white;
+  background-color: black;
+  font-family: 'Playfair Display', serif;
 }
 
- {
-  background-color: black;
+.imageContainer {
+  text-align: center;
+  line-height: 1.5;
+  width: 100%;
+}
 
+a[href*="placeholder.com"] {
+  display: block;
+  padding: 20px;
 }
