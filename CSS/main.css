@@ -4,21 +4,33 @@
   box-shadow: 2px 2px 15px black;
 }
 
-h1 {
-  position: static;
-  padding-top: 50vh;
+h1  {
+
+  padding-top: 45vh;
   padding-bottom: 50vh;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
   color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px !important;
+  /* letter-spacing: 2px; */
+  font-weight: lighter !important;
+}
+
+.black {
   background-color: black;
-  font-family: 'Playfair Display', serif;
+  position: relative;
+  z-index: -1;
 }
 
 .imageContainer {
   text-align: center;
   line-height: 1.5;
   width: 100%;
+}
+
+i {
+  color: white;
 }
 
 a[href*="placeholder.com"] {
