@@ -1,39 +1,87 @@
 .navFixed {
   width: 100%;
   position: fixed;
-  box-shadow: 2px 2px 15px black;
+  /* box-shadow: 2px 2px 15px black; */
+  /* background-color: #e5e5e5 !important; */
+  background-color: transparent !important;
 }
 
-h1  {
+body::-webkit-scrollbar-button {
+  display: none;
+  height: 13px;
+  border-radius: 0px;
+  background-color: #AAA;
+}
 
+::-webkit-scrollbar-button:hover {
+  background-color: #AAA;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8d8d8d;
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000000;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #efefef;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #CCC;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+h1 {
   padding-top: 45vh;
   padding-bottom: 50vh;
   /* margin: 0 auto; */
   text-align: center;
   color: white;
   font-family: 'Pacifico', cursive;
-  font-size: 50px !important;
+  /* font-size: 50px !important; */
   /* letter-spacing: 2px; */
   font-weight: lighter !important;
+  /* shadow for black background */
+  text-shadow: 1px 4px 11px rgba(40, 68, 49, 35.2);
+  /*  shadow for mountain image */
+  /* text-shadow: 1px 4px 11px #8d8d8d; */
+  text-shadow: 2px 6px 11px rgba(1, 1, 1, 1);
+}
+
+.navbar a, i, svg {
+  color: #8d8d8d !important;
 }
 
 .black {
-  background-color: black;
+  /* background-color: black; */
+  background-image: url('../img/mountain.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(to bottom, transparent, white), url('../img/mountain.jpg');
   position: relative;
   z-index: -1;
 }
 
 .imageContainer {
   text-align: center;
+  margin: 0 auto;
   line-height: 1.5;
-  width: 100%;
+  width: 90%;
 }
 
 i {
   color: white;
 }
 
-a[href*="placeholder.com"] {
-  display: block;
+img[src*="placeholder.com"] {
+  margin: 0 auto;
   padding: 20px;
 }
