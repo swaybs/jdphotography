@@ -6,6 +6,8 @@
   background-color: transparent !important;
 }
 
+/* SCROLL BAR CSS */
+
 body::-webkit-scrollbar-button {
   display: none;
   height: 13px;
@@ -39,30 +41,67 @@ body::-webkit-scrollbar-button {
   width: 13px;
 }
 
-h1 {
-  padding-top: 45vh;
-  padding-bottom: 50vh;
+@keyframes zoomOnScroll {
+  0% {font-size: 44px;}
+  25% {font-size: 54px;}
+  50% {font-size: 64px;}
+  75% {font-size: 74px;}
+  100% {font-size: 84px;}
+
+}
+
+/* LOGO DESGIN */
+
+.jd {
+  position: relative;
+  width: auto;
+  /* padding-top: 45vh;
+  padding-bottom: 50vh; */
   /* margin: 0 auto; */
   text-align: center;
   color: white;
   font-family: 'Pacifico', cursive;
-  /* font-size: 50px !important; */
-  /* letter-spacing: 2px; */
   font-weight: lighter !important;
   /* shadow for black background */
   text-shadow: 1px 4px 11px rgba(40, 68, 49, 35.2);
   /*  shadow for mountain image */
   /* text-shadow: 1px 4px 11px #8d8d8d; */
   text-shadow: 2px 6px 11px rgba(1, 1, 1, 1);
+  /* animation: zoomOnScroll 6s; */
 }
+
+/* ******************************************** */
 
 .navbar a, i, svg {
   color: #8d8d8d !important;
 }
 
+
+
+
+h1 {
+  background-color: black;
+  padding-top: 45vh;
+  padding-bottom: 50vh;
+  position: relative;
+  width: auto;
+  font-family: 'Pacifico', cursive;
+  font-weight: lighter !important;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 6px 11px rgba(1, 1, 1, 1);
+
+}
+
+
 .black {
-  /* background-color: black; */
+  padding-top: 45vh;
+  padding-bottom: 50vh;
+
   background-image: url('../img/mountain.jpg');
+  min-height: 500px;
+  background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background: linear-gradient(to bottom, transparent, white), url('../img/mountain.jpg');
@@ -84,4 +123,6 @@ i {
 img[src*="placeholder.com"] {
   margin: 0 auto;
   padding: 20px;
+
+
 }
