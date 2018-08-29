@@ -6,6 +6,8 @@
   background-color: transparent !important;
 }
 
+
+
 /* SCROLL BAR CSS */
 
 body::-webkit-scrollbar-button {
@@ -77,10 +79,14 @@ body::-webkit-scrollbar-button {
 }
 
 
-
+div h1 {
+  position: relative;
+}
 
 h1 {
+  position: absolute;
   background-color: black;
+  background-size: cover;
   padding-top: 45vh;
   padding-bottom: 50vh;
   position: relative;
@@ -106,7 +112,7 @@ h1 {
   background-size: cover;
   background: linear-gradient(to bottom, transparent, white), url('../img/mountain.jpg');
   position: relative;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .imageContainer {
@@ -114,15 +120,32 @@ h1 {
   margin: 0 auto;
   line-height: 1.5;
   width: 90%;
+
 }
 
 i {
   color: white;
 }
 
-img[src*="placeholder.com"] {
+img[src*="img"] {
+  display: block;
+  width: 50%;
+  height: 50%;
+
   margin: 0 auto;
   padding: 20px;
+  box-shadow:         12px 12px 29px #555;
 
 
+}
+
+@media (max-width: 450px) {
+  img[src*="img"] {
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 20px;
+
+
+  }
 }
