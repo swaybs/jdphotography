@@ -57,19 +57,13 @@ body::-webkit-scrollbar-button {
 .jd {
   position: relative;
   width: auto;
-  /* padding-top: 45vh;
-  padding-bottom: 50vh; */
-  /* margin: 0 auto; */
   text-align: center;
-  color: white;
+  color: black;
   font-family: 'Pacifico', cursive;
   font-weight: lighter !important;
-  /* shadow for black background */
-  text-shadow: 1px 4px 11px rgba(40, 68, 49, 35.2);
-  /*  shadow for mountain image */
-  /* text-shadow: 1px 4px 11px #8d8d8d; */
-  text-shadow: 2px 6px 11px rgba(1, 1, 1, 1);
-  /* animation: zoomOnScroll 6s; */
+
+
+
 }
 
 /* ******************************************** */
@@ -95,7 +89,7 @@ h1 {
   font-weight: lighter !important;
   text-align: center;
   color: white;
-  text-shadow: 2px 6px 11px rgba(1, 1, 1, 1);
+  /* text-shadow: 2px 6px 11px rgba(1, 1, 1, 1); */
 
 }
 
@@ -104,13 +98,13 @@ h1 {
   padding-top: 45vh;
   padding-bottom: 50vh;
 
-  background-image: url('../img/mountain.jpg');
+  /* background-image: url('../img/mountain.jpg'); */
   min-height: 500px;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, white), url('../img/mountain.jpg');
+  /* background: linear-gradient(to bottom, transparent, white), url('../img/mountain.jpg'); */
   position: relative;
   /* z-index: -1; */
 }
@@ -128,7 +122,7 @@ i {
 }
 
 img[src*="img"] {
-  display: block;
+  display: flex;
   width: 50%;
   height: 50%;
 
