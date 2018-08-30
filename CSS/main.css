@@ -78,13 +78,14 @@ div h1 {
 }
 
 h1 {
-  position: absolute;
+  /* position: absolute; */
   background-color: black;
   background-size: cover;
   padding-top: 45vh;
-  padding-bottom: 50vh;
+  padding-bottom: 48.5vh;
+
   position: relative;
-  width: auto;
+  width: 0 auto;
   font-family: 'Pacifico', cursive;
   font-weight: lighter !important;
   text-align: center;
@@ -96,17 +97,17 @@ h1 {
 
 .black {
   padding-top: 45vh;
-  padding-bottom: 50vh;
+  padding-bottom: 45vh;
 
   /* background-image: url('../img/mountain.jpg'); */
-  min-height: 500px;
-  background-position: center;
+  /* min-height: 500px; */
+  background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   /* background: linear-gradient(to bottom, transparent, white), url('../img/mountain.jpg'); */
-  position: relative;
-  /* z-index: -1; */
+  /* position: relative; */
+  z-index: -1;
 }
 
 .imageContainer {
