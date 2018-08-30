@@ -134,7 +134,7 @@ img[src*="img"] {
 
   margin: 0 auto;
   padding: 20px;
-  box-shadow:         12px 12px 29px #555;
+  /* box-shadow:         12px 12px 29px #555; */
 
 
 }
