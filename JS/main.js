@@ -15,8 +15,8 @@ $(document).ready(function() {
     .append('<h1 class="onLoad">loading...</h1>');
 
   $('body').css('display', 'none')
-  .delay(4000).fadeIn(1000, function() {
-    $('.onLoad').fadeOut(100);
+  .delay(4000).fadeIn(2000, function() {
+    $('.onLoad', 'div').fadeOut(100);
   });
 
 });
