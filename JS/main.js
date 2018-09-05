@@ -16,7 +16,7 @@ $(document).ready(function() {
 
   $('body').css('display', 'none')
   .delay(4000).fadeIn(2000, function() {
-    $('.onLoad', 'div').fadeOut(100);
+    $('.onLoad').fadeOut(100);
   });
 
 });
